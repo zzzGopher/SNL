@@ -1,0 +1,25 @@
+/* ./src/styles/global.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@fontsource /nunito;
+
+.testing {
+  background-color: #05121f;
+}
+
+.zno {
+  z-index: -4;
+}
+
+.bg-match {
+  background-color: #0066ff;
+}
+
+body {
+  background-image: url("../images/bg3.svg");
+  height: 100vh;
+  bottom: 0;
+  position: absolute;
+  overflow-x: hidden;
+}
